@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator Regress Test Suite" parallel="tests" thread-count="1">
+    <test name="SumTests">
+        <classes>
+            <class name="tests.SumTest" />
+        </classes>
+    </test>
+    <test name="DivisionTests">
+        <classes>
+            <class name="tests.DivisionTest" />
+        </classes>
+    </test>
+    <test name="MultiplyTests">
+        <classes>
+            <class name="tests.MultiplyTest" />
+        </classes>
+    </test>
+    <test name="SubtractTests">
+        <classes>
+            <class name="tests.SubtractTest" />
+        </classes>
+    </test>
+</suite>
